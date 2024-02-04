@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Verdana;
+    background-color: #000;
+    color: #FFF;
+    margin: 20px 20px 0;
+}
+
+h1 {
+    font-size: 42px; 
+    text-align: center; 
+    padding: 15px; 
+}
+
+h2 {
+    font-size: 30px;
+    color: #0D0D0D; 
+}
+
+p {
+    font-size: 24px; 
+    padding: 10px 0 0 10px; 
+}
+
+img {
+    width: 250px; 
+    display: block; 
+    margin: auto; 
+    border: 10px dashed #FFF; 
+}
+
+div, .introduction {
+    min-height: 125px; 
+    padding: 20px; 
+    border: 3px solid #FFF; 
+}
+
+.introduction {
+    border-radius: 15px; 
+    margin-top: 15px; 
+    line-height: 2; 
+}
+
+.red, .yellow {
+    background-color: #F00; /* Red applied, Yellow will override */
+    text-align: right; 
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 0 0 2px 5px; /* Top, Right, Bottom, Left */
+}
+
+.blue, .green {
+    background-color: #00F; /* Blue applied, Green will override */
+    text-align: left; 
+    margin-right: 50px; 
+    border-style: solid;
+    border-width: 2px 5px 0 0; /* Top, Right, Bottom, Left */
+    color: #C4C4C4; /* For .blue and its h2, overridden by .green */
+}
+
+.yellow, .green {
+    color: #707070; /* For .yellow, overridden by .green */
+}
+
+.yellow { background-color: #FF0; }
+.green { background-color: #00D800; color: #FFF; } /* Correcting the color code for green */
+
+footer {
+    background: linear-gradient(to right, #000 0%, #00F 25%, #66F 70%, #000 100%);
+    border: 5px solid #FFF;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right; 
+    padding: 15px 15px 15px 0; 
+}
